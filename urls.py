@@ -2,7 +2,7 @@ from django.urls import path
 from .import views
 
 urlpatterns = [
-    path('', views.super_list),
-    path('<int:pk>/', views.super_detail),
-    
+    path('', views.super_type_list),
+    path('<pk>/', views.super_types_detail),
+
 ]
